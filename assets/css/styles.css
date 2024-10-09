@@ -1,0 +1,318 @@
+@font-face {
+  /*name*/
+  font-family: 'ROMANTIC';
+  src: url(https://dl.dropbox.com/s/xggwcxb6mlf6pwq/ROMANTIC.TTF);
+}
+
+@font-face {
+  /*font paragraph*/
+  font-family: windows;
+  src: url(https://dl.dropbox.com/s/kaxqli0m8m9zvdc/Windows%20Regular.ttf?dl=0);
+}
+
+@font-face {
+  font-family: 'CD-Icons';
+  src: url(https://dl.dropbox.com/s/qpxhx7ejpr5bw67/cd-iconspc.ttf);
+}
+
+@font-face {
+  font-family: 'basiic';
+  src: url(./fonts/basiic.ttf);
+}
+
+* {
+  text-decoration: none;
+  margin: auto;
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1034.cur), auto !important;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20640%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cstyle%3E%20path%20%7B%20stroke%3A%20rgba(240,215,252,0.941)%3B%20stroke-width%3A%202.5px%3B%20fill%3A%20none%3B%20vector-effect%3A%20non-scaling-stroke%3B%20%7D%20stop.w%20%7B%20stop-color%3A%20white%3B%20%7D%20stop.b%20%7B%20stop-color%3A%20black%3B%20%7D%20%3C%2Fstyle%3E%20%3Cdefs%3E%20%3Cpolygon%20id%3D%22ap0%22%20points%3D%220%2C27%2037.5%2C0%2027%2C-25%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22ap1%22%20points%3D%2227%2C-25%2027%2C-37.5%200%2C-37.5%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22ap2%22%20points%3D%220%2C-37.5%20-27%2C-37.5%20-27%2C-25%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22ap3%22%20points%3D%22-27%2C-25%20-37.5%2C0%200%2C27%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpath%20id%3D%22ad%22%20d%3D%22m%200%2025%20c%206.25%20-16.67%2037.5%20-25%2025%20-50%20c%20-8.33%20-12.5%20-20.83%20-8.33%20-25%208.33%20c%20-4.17%20-16.67%20-16.67%20-20.83%20-25%20-8.33%20c%20-12.5%2025%2018.75%2033.33%2025%2050%22%3E%3C%2Fpath%3E%3Cpolygon%20id%3D%22bp0%22%20points%3D%220%2C23.25%2037.5%2C0%2027%2C-21.25%200%2C-12.17%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22bp1%22%20points%3D%2227%2C-21.25%2027%2C-31.87%200%2C-31.87%200%2C-12.17%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22bp2%22%20points%3D%220%2C-31.87%20-27%2C-31.87%20-27%2C-21.25%200%2C-12.17%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22bp3%22%20points%3D%22-27%2C-21.25%20-37.5%2C0%200%2C23.25%200%2C-12.17%22%3E%3C%2Fpolygon%3E%3Cpath%20id%3D%22bd%22%20d%3D%22m%200%2021.25%20c%206.25%20-14.17%2037.5%20-21.25%2025%20-42.5%20c%20-8.33%20-10.62%20-20.83%20-7.08%20-25%207.08%20c%20-4.17%20-14.17%20-16.67%20-17.71%20-25%20-7.08%20c%20-12.5%2021.25%2018.75%2028.33%2025%2042.5%22%3E%3C%2Fpath%3E%3Cpolygon%20id%3D%22cp0%22%20points%3D%220%2C27%2033.75%2C0%2024.5%2C-25%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22cp1%22%20points%3D%2224.5%2C-25%2024.5%2C-37.5%200%2C-37.5%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22cp2%22%20points%3D%220%2C-37.5%20-24.5%2C-37.5%20-24.5%2C-25%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22cp3%22%20points%3D%22-24.5%2C-25%20-33.75%2C0%200%2C27%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpath%20id%3D%22cd%22%20d%3D%22m%200%2025%20c%205.63%20-16.67%2033.75%20-25%2022.5%20-50%20c%20-7.5%20-12.5%20-18.75%20-8.33%20-22.5%208.33%20c%20-3.75%20-16.67%20-15%20-20.83%20-22.5%20-8.33%20c%20-11.25%2025%2016.88%2033.33%2022.5%2050%22%3E%3C%2Fpath%3E%3Cpolygon%20id%3D%22dp0%22%20points%3D%220%2C24.5%2037.5%2C0%2027%2C-22.5%200%2C-13%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22dp1%22%20points%3D%2227%2C-22.5%2027%2C-33.75%200%2C-33.75%200%2C-13%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22dp2%22%20points%3D%220%2C-33.75%20-27%2C-33.75%20-27%2C-22.5%200%2C-13%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22dp3%22%20points%3D%22-27%2C-22.5%20-37.5%2C0%200%2C24.5%200%2C-13%22%3E%3C%2Fpolygon%3E%3Cpath%20id%3D%22dd%22%20d%3D%22m%200%2022.5%20c%206.25%20-15%2037.5%20-22.5%2025%20-45%20c%20-8.33%20-11.25%20-20.83%20-7.5%20-25%207.5%20c%20-4.17%20-15%20-16.67%20-18.75%20-25%20-7.5%20c%20-12.5%2022.5%2018.75%2030%2025%2045%22%3E%3C%2Fpath%3E%3Cpolygon%20id%3D%22ep0%22%20points%3D%220%2C27%2031.88%2C0%2023.25%2C-25%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22ep1%22%20points%3D%2223.25%2C-25%2023.25%2C-37.5%200%2C-37.5%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22ep2%22%20points%3D%220%2C-37.5%20-23.25%2C-37.5%20-23.25%2C-25%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpolygon%20id%3D%22ep3%22%20points%3D%22-23.25%2C-25%20-31.87%2C0%200%2C27%200%2C-14.67%22%3E%3C%2Fpolygon%3E%3Cpath%20id%3D%22ed%22%20d%3D%22m%200%2025%20c%205.31%20-16.67%2031.88%20-25%2021.25%20-50%20c%20-7.08%20-12.5%20-17.71%20-8.33%20-21.25%208.33%20c%20-3.54%20-16.67%20-14.17%20-20.83%20-21.25%20-8.33%20c%20-10.62%2025%2015.94%2033.33%2021.25%2050%22%3E%3C%2Fpath%3E%3ClinearGradient%20id%3D%22g02%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%220%3B1%3B1%22%20keyTimes%3D%220%3B0.0143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%220%3B1%3B1%22%20keyTimes%3D%220%3B0.0143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g01%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%220%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0143%3B0.0286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%220%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0143%3B0.0286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g03%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%220%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0286%3B0.0429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%220%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0286%3B0.0429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g04%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%220%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0429%3B0.0571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%220%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0429%3B0.0571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22m0%22%3E%3Cuse%20href%3D%22%23ap0%22%20fill%3D%22url%28%23g01%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ap1%22%20fill%3D%22url%28%23g02%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ap2%22%20fill%3D%22url%28%23g03%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ap3%22%20fill%3D%22url%28%23g04%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22g14%22%20x2%3D%220%22%20y1%3D%221%22%20y2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0714%3B0.0714%3B0.0857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0714%3B0.0714%3B0.0857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g13%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0714%3B0.0714%3B0.0857%3B0.1%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0714%3B0.0714%3B0.0857%3B0.1%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g12%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0714%3B0.0714%3B0.1%3B0.1143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0714%3B0.0714%3B0.1%3B0.1143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g11%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0714%3B0.0714%3B0.1143%3B0.1286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0714%3B0.0714%3B0.1143%3B0.1286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22m1%22%3E%3Cuse%20href%3D%22%23bp0%22%20fill%3D%22url%28%23g11%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bp1%22%20fill%3D%22url%28%23g12%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bp2%22%20fill%3D%22url%28%23g13%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bp3%22%20fill%3D%22url%28%23g14%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22g21%22%20x2%3D%220%22%20y1%3D%221%22%20y2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.1429%3B0.1429%3B0.1571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.1429%3B0.1429%3B0.1571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g22%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.1429%3B0.1429%3B0.1571%3B0.1714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.1429%3B0.1429%3B0.1571%3B0.1714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g23%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.1429%3B0.1429%3B0.1714%3B0.1857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.1429%3B0.1429%3B0.1714%3B0.1857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g24%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.1429%3B0.1429%3B0.1857%3B0.2%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.1429%3B0.1429%3B0.1857%3B0.2%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22m2%22%3E%3Cuse%20href%3D%22%23cp0%22%20fill%3D%22url%28%23g21%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cp1%22%20fill%3D%22url%28%23g22%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cp2%22%20fill%3D%22url%28%23g23%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cp3%22%20fill%3D%22url%28%23g24%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22g33%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2143%3B0.2143%3B0.2286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2143%3B0.2143%3B0.2286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g34%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2143%3B0.2143%3B0.2286%3B0.2429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2143%3B0.2143%3B0.2286%3B0.2429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g32%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2143%3B0.2143%3B0.2429%3B0.2571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2143%3B0.2143%3B0.2429%3B0.2571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g31%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2143%3B0.2143%3B0.2571%3B0.2714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2143%3B0.2143%3B0.2571%3B0.2714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22m3%22%3E%3Cuse%20href%3D%22%23dp0%22%20fill%3D%22url%28%23g31%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dp1%22%20fill%3D%22url%28%23g32%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dp2%22%20fill%3D%22url%28%23g33%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dp3%22%20fill%3D%22url%28%23g34%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22g42%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2857%3B0.2857%3B0.3%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2857%3B0.2857%3B0.3%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g41%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2857%3B0.2857%3B0.3%3B0.3143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2857%3B0.2857%3B0.3%3B0.3143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g43%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2857%3B0.2857%3B0.3143%3B0.3286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2857%3B0.2857%3B0.3143%3B0.3286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g44%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2857%3B0.2857%3B0.3286%3B0.3429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2857%3B0.2857%3B0.3286%3B0.3429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22m4%22%3E%3Cuse%20href%3D%22%23ep0%22%20fill%3D%22url%28%23g41%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ep1%22%20fill%3D%22url%28%23g42%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ep2%22%20fill%3D%22url%28%23g43%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ep3%22%20fill%3D%22url%28%23g44%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22g51%22%20x2%3D%220%22%20y1%3D%221%22%20y2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.3571%3B0.3571%3B0.3714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.3571%3B0.3571%3B0.3714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g52%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.3571%3B0.3571%3B0.3714%3B0.3857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.3571%3B0.3571%3B0.3714%3B0.3857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g53%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.3571%3B0.3571%3B0.3857%3B0.4%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.3571%3B0.3571%3B0.3857%3B0.4%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g54%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.3571%3B0.3571%3B0.4%3B0.4143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.3571%3B0.3571%3B0.4%3B0.4143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22m5%22%3E%3Cuse%20href%3D%22%23ap0%22%20fill%3D%22url%28%23g51%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ap1%22%20fill%3D%22url%28%23g52%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ap2%22%20fill%3D%22url%28%23g53%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ap3%22%20fill%3D%22url%28%23g54%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22g64%22%20x2%3D%220%22%20y1%3D%221%22%20y2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.4286%3B0.4286%3B0.4429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.4286%3B0.4286%3B0.4429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g63%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.4286%3B0.4286%3B0.4429%3B0.4571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.4286%3B0.4286%3B0.4429%3B0.4571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g62%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.4286%3B0.4286%3B0.4571%3B0.4714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.4286%3B0.4286%3B0.4571%3B0.4714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g61%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.4286%3B0.4286%3B0.4714%3B0.4857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.4286%3B0.4286%3B0.4714%3B0.4857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22m6%22%3E%3Cuse%20href%3D%22%23bp0%22%20fill%3D%22url%28%23g61%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bp1%22%20fill%3D%22url%28%23g62%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bp2%22%20fill%3D%22url%28%23g63%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bp3%22%20fill%3D%22url%28%23g64%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22g74%22%20x2%3D%220%22%20y1%3D%221%22%20y2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5%3B0.5%3B0.5143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5%3B0.5%3B0.5143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g73%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5%3B0.5%3B0.5143%3B0.5286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5%3B0.5%3B0.5143%3B0.5286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g72%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5%3B0.5%3B0.5286%3B0.5429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5%3B0.5%3B0.5286%3B0.5429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g71%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5%3B0.5%3B0.5429%3B0.5571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5%3B0.5%3B0.5429%3B0.5571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22m7%22%3E%3Cuse%20href%3D%22%23cp0%22%20fill%3D%22url%28%23g71%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cp1%22%20fill%3D%22url%28%23g72%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cp2%22%20fill%3D%22url%28%23g73%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cp3%22%20fill%3D%22url%28%23g74%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22g82%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5714%3B0.5714%3B0.5857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5714%3B0.5714%3B0.5857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g81%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5714%3B0.5714%3B0.5857%3B0.6%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5714%3B0.5714%3B0.5857%3B0.6%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g83%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5714%3B0.5714%3B0.6%3B0.6143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5714%3B0.5714%3B0.6%3B0.6143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g84%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5714%3B0.5714%3B0.6143%3B0.6286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5714%3B0.5714%3B0.6143%3B0.6286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22m8%22%3E%3Cuse%20href%3D%22%23dp0%22%20fill%3D%22url%28%23g81%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dp1%22%20fill%3D%22url%28%23g82%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dp2%22%20fill%3D%22url%28%23g83%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dp3%22%20fill%3D%22url%28%23g84%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22g91%22%20x2%3D%220%22%20y1%3D%221%22%20y2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.6429%3B0.6429%3B0.6571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.6429%3B0.6429%3B0.6571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g92%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.6429%3B0.6429%3B0.6571%3B0.6714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.6429%3B0.6429%3B0.6571%3B0.6714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g93%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.6429%3B0.6429%3B0.6714%3B0.6857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.6429%3B0.6429%3B0.6714%3B0.6857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22g94%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.6429%3B0.6429%3B0.6857%3B0.7%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.6429%3B0.6429%3B0.6857%3B0.7%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22m9%22%3E%3Cuse%20href%3D%22%23ep0%22%20fill%3D%22url%28%23g91%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ep1%22%20fill%3D%22url%28%23g92%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ep2%22%20fill%3D%22url%28%23g93%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ep3%22%20fill%3D%22url%28%23g94%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22ga2%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7143%3B0.7143%3B0.7286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7143%3B0.7143%3B0.7286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22ga1%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7143%3B0.7143%3B0.7286%3B0.7429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7143%3B0.7143%3B0.7286%3B0.7429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22ga3%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7143%3B0.7143%3B0.7429%3B0.7571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7143%3B0.7143%3B0.7429%3B0.7571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22ga4%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7143%3B0.7143%3B0.7571%3B0.7714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7143%3B0.7143%3B0.7571%3B0.7714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22ma%22%3E%3Cuse%20href%3D%22%23ap0%22%20fill%3D%22url%28%23ga1%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ap1%22%20fill%3D%22url%28%23ga2%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ap2%22%20fill%3D%22url%28%23ga3%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ap3%22%20fill%3D%22url%28%23ga4%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22gb3%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7857%3B0.7857%3B0.8%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7857%3B0.7857%3B0.8%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22gb4%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7857%3B0.7857%3B0.8%3B0.8143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7857%3B0.7857%3B0.8%3B0.8143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22gb2%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7857%3B0.7857%3B0.8143%3B0.8286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7857%3B0.7857%3B0.8143%3B0.8286%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22gb1%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7857%3B0.7857%3B0.8286%3B0.8429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7857%3B0.7857%3B0.8286%3B0.8429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22mb%22%3E%3Cuse%20href%3D%22%23bp0%22%20fill%3D%22url%28%23gb1%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bp1%22%20fill%3D%22url%28%23gb2%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bp2%22%20fill%3D%22url%28%23gb3%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bp3%22%20fill%3D%22url%28%23gb4%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22gc1%22%20x2%3D%220%22%20y1%3D%221%22%20y2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.8571%3B0.8571%3B0.8714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.8571%3B0.8571%3B0.8714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22gc2%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.8571%3B0.8571%3B0.8714%3B0.8857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.8571%3B0.8571%3B0.8714%3B0.8857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22gc3%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.8571%3B0.8571%3B0.8857%3B0.9%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.8571%3B0.8571%3B0.8857%3B0.9%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22gc4%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.8571%3B0.8571%3B0.9%3B0.9143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.8571%3B0.8571%3B0.9%3B0.9143%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22mc%22%3E%3Cuse%20href%3D%22%23cp0%22%20fill%3D%22url%28%23gc1%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cp1%22%20fill%3D%22url%28%23gc2%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cp2%22%20fill%3D%22url%28%23gc3%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cp3%22%20fill%3D%22url%28%23gc4%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%3ClinearGradient%20id%3D%22gd1%22%20x2%3D%220%22%20y1%3D%221%22%20y2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.9286%3B0.9286%3B0.9429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.9286%3B0.9286%3B0.9429%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22gd2%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.9286%3B0.9286%3B0.9429%3B0.9571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.9286%3B0.9286%3B0.9429%3B0.9571%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22gd3%22%20x1%3D%221%22%20x2%3D%220%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.9286%3B0.9286%3B0.9571%3B0.9714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.9286%3B0.9286%3B0.9571%3B0.9714%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22gd4%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20class%3D%22w%22%3E%3C%2Fstop%3E%3Cstop%20class%3D%22w%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.9286%3B0.9286%3B0.9714%3B0.9857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3Cstop%20class%3D%22b%22%3E%3Canimate%20attributeName%3D%22offset%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.9286%3B0.9286%3B0.9714%3B0.9857%3B1%22%20dur%3D%2228000ms%22%20repeatCount%3D%22indefinite%22%3E%3C%2Fanimate%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3Cmask%20id%3D%22md%22%3E%3Cuse%20href%3D%22%23dp0%22%20fill%3D%22url%28%23gd1%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dp1%22%20fill%3D%22url%28%23gd2%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dp2%22%20fill%3D%22url%28%23gd3%29%22%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dp3%22%20fill%3D%22url%28%23gd4%29%22%3E%3C%2Fuse%3E%3C%2Fmask%3E%20%3C%2Fdefs%3E%20%3Cuse%20href%3D%22%23ad%22%20mask%3D%22url%28%23m0%29%22%20transform%3D%22translate%28521%2C98%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%22%20keyTimes%3D%220%3B0.8571%3B0.9286%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bd%22%20mask%3D%22url%28%23m1%29%22%20transform%3D%22translate%28323%2C114%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%220%3B0%3B1%3B1%3B0%22%20keyTimes%3D%220%3B0.0714%3B0.0714%3B0.9286%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cd%22%20mask%3D%22url%28%23m2%29%22%20transform%3D%22translate%28265%2C339%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0%3B0.0714%3B0.1429%3B0.1429%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dd%22%20mask%3D%22url%28%23m3%29%22%20transform%3D%22translate%28160%2C261%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.0714%3B0.1429%3B0.2143%3B0.2143%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ed%22%20mask%3D%22url%28%23m4%29%22%20transform%3D%22translate%28132%2C430%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.1429%3B0.2143%3B0.2857%3B0.2857%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ad%22%20mask%3D%22url%28%23m5%29%22%20transform%3D%22translate%28297%2C198%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2143%3B0.2857%3B0.3571%3B0.3571%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bd%22%20mask%3D%22url%28%23m6%29%22%20transform%3D%22translate%28268%2C45%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.2857%3B0.3571%3B0.4286%3B0.4286%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cd%22%20mask%3D%22url%28%23m7%29%22%20transform%3D%22translate%28391%2C287%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.3571%3B0.4286%3B0.5%3B0.5%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dd%22%20mask%3D%22url%28%23m8%29%22%20transform%3D%22translate%28357%2C412%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.4286%3B0.5%3B0.5714%3B0.5714%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ed%22%20mask%3D%22url%28%23m9%29%22%20transform%3D%22translate%28164%2C89%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5%3B0.5714%3B0.6429%3B0.6429%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23ad%22%20mask%3D%22url%28%23ma%29%22%20transform%3D%22translate%2862%2C187%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.5714%3B0.6429%3B0.7143%3B0.7143%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23bd%22%20mask%3D%22url%28%23mb%29%22%20transform%3D%22translate%28499%2C444%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.6429%3B0.7143%3B0.7857%3B0.7857%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23cd%22%20mask%3D%22url%28%23mc%29%22%20transform%3D%22translate%28595%2C54%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7143%3B0.7857%3B0.8571%3B0.8571%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3Cuse%20href%3D%22%23dd%22%20mask%3D%22url%28%23md%29%22%20transform%3D%22translate%28505%2C289%29%22%3E%3Canimate%20attributeName%3D%22opacity%22%20repeatCount%3D%22indefinite%22%20dur%3D%2228000ms%22%20values%3D%221%3B1%3B0%3B0%3B1%3B1%22%20keyTimes%3D%220%3B0.7857%3B0.8571%3B0.9286%3B0.9286%3B1%22%3E%3C%2Fanimate%3E%3C%2Fuse%3E%3C%2Fsvg%3E'),
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(240, 215, 252, 0.349) 30%,
+      #ffffff 100%
+    ),
+    url('assets/images/bg.jpg?v=ac560356');
+}
+
+.filter {
+  filter: var(--filter);
+}
+
+-moz-selection {
+  background-color: #dde9ff;
+  color: #e89eff;
+}
+
+::selection {
+  background-color: #dde9ff;
+  color: #e89eff;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'ROMANTIC';
+  letter-spacing: 3px;
+  background: rgb(235, 232, 247);
+  background: linear-gradient(
+    0deg,
+    rgb(235, 232, 247) 25%,
+    rgb(215, 189, 230) 65%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #453e85;
+  -webkit-filter: drop-shadow(0px 0px 2px #a376e6);
+  margin-inline-start: 1.7em;
+  margin-top: 1em;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #453e85;
+  font-weight: 600;
+  font-family: 'windows';
+}
+
+p {
+  font-family: 'basiic';
+  text-indent: 50px;
+}
+
+footer {
+  background: #d3c6fb;
+  font-family: windows;
+  font-size: 1em;
+  color: #414141;
+  margin-top: 5em;
+  padding: 6px 5px;
+  text-align: center;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.137);
+}
+
+.navbar {
+  /*nav bar*/
+  background: #d3c6fb;
+  font-family: windows;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  box-shadow: 0 3px 10px rgba(94, 94, 94, 0.377);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.137);
+  border-bottom: #d2c5f8;
+}
+
+.navbar a {
+  font-family: windows;
+}
+
+.navdiv {
+  /*nav bar*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  /*nav bar*/
+  font-family: 'ROMANTIC';
+  background: rgb(164, 187, 249);
+  background: linear-gradient(
+    0deg,
+    rgb(200, 179, 250) 25%,
+    rgba(69, 62, 133, 1) 65%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #453e85;
+  -webkit-filter: drop-shadow(0px 0px 2px #b483fd);
+  letter-spacing: 3px;
+  font-size: 4em;
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0px 0px 15px #b483fd;
+  }
+
+  50% {
+    text-shadow: 0px 0px 5px #ffedf8;
+  }
+
+  100% {
+    text-shadow: 0px 0px 15px #b483fd;
+  }
+}
+
+.icon img {
+  border: 2px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 53%,
+    rgba(254, 199, 244, 1) 97%
+  );
+  background-clip: padding-box;
+  padding: 2px;
+  margin-top: 20px;
+}
+
+li {
+  display: inline-block;
+  font-family: 'basiic';
+}
+
+.navbar a {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+a:hover {
+  color: #7d97db;
+}
+
+.window-p {
+  width: 60%;
+  height: 50%;
+  overflow-y: visible;
+  background: rgb(184, 184, 184);
+  background: linear-gradient(
+    360deg,
+    rgba(184, 184, 184, 0.699) 0%,
+    rgba(255, 255, 255, 0.699) 100%
+  );
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 1.5em;
+  font-family: 'basiic';
+  color: black;
+  font-size: 25px;
+  box-shadow: inset 10px 0px 6px -10px #61507da6,
+    inset -10px 0px 6px -10px rgba(125, 81, 80, 0.65),
+    inset 0px 10px 6px -10px #ffffff,
+    inset 0px -10px 6px -10px rgba(125, 81, 80, 0.376),
+    0px 0px 5px 1px #61507da6;
+}
+
+.divteste {
+  /*pra centralizar*/
+  display: flex;
+  justify-content: center;
+}
+
+.window-p a,
+.li a {
+  color: #453e85;
+}
+
+.window-p .li {
+  list-style-type: circle;
+  font-family: 'basiic';
+}
+
+.window-p img {
+  width: 100%;
+  height: 10em;
+  border-radius: 25px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 53%,
+    rgba(254, 199, 244, 1) 97%
+  );
+  background-clip: padding-box;
+  padding: 2px;
+  -webkit-filter: drop-shadow(0px 0px 5px #ffffff);
+  margin-top: 1.5em;
+  display: grid;
+}
+
+.window-p img:hover {
+  opacity: 0.5;
+}
+
+.photome {
+  width: auto;
+  height: auto;
+  margin: 0.7em;
+}
+
+#container00 {
+  width: 60%;
+  height: auto;
+  overflow-y: visible;
+  padding: 25px;
+  margin: 1.5em;
+  display: flex;
+  gap: 30px;
+  background: rgb(184, 184, 184);
+  background: linear-gradient(
+    360deg,
+    rgba(184, 184, 184, 0.699) 0%,
+    rgba(255, 255, 255, 0.699) 100%
+  );
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  font-family: 'basiic';
+  color: black;
+  font-size: 25px;
+  text-align: justify;
+  box-shadow: inset 10px 0px 6px -10px #61507da6,
+    inset -10px 0px 6px -10px rgba(125, 81, 80, 0.65),
+    inset 0px 10px 6px -10px #ffffff,
+    inset 0px -10px 6px -10px rgba(125, 81, 80, 0.376),
+    0px 0px 5px 1px #61507da6;
+}
+
+#container00 p {
+  width: auto;
+}
+
+#container00 img {
+  /*minha foto*/
+
+  width: 230px;
+  border: 2px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 53%,
+    rgba(254, 199, 244, 1) 97%
+  );
+  background-clip: padding-box;
+  padding: 2px;
+  -webkit-filter: drop-shadow(0px 0px 2px #000);
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: transition 0.2s ease-in-out;
+  -moz-transition: -moz-transition 0.2s ease-in-out;
+  -o-transition: -o-transition 0.2s ease-in-out;
+}
+
+#container00 img:hover {
+  opacity: 0.4;
+  transform: scale(1.1);
+  -moz-transform: scale(1.1); /* Firefox 4 */
+  -o-transform: scale(1.1); /* Opera */
+  -webkit-transform: scale(1.1); /* Chrome */
+}
+
+iframe {
+  display: grid;
+  justify-content: center;
+  border-radius: 25px;
+  border: 2px solid #a376e6;
+  -webkit-filter: drop-shadow(0px 0px 2px #000);
+}
